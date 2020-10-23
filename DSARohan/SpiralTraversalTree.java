@@ -43,7 +43,7 @@ public class test2
 				}
 			}
 			reverse = !reverse;
-			//System.out.println();
+			System.out.println();
 		}
 	}
 	static class TreeNode{
