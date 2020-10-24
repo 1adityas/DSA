@@ -1,5 +1,6 @@
 #its done in O(n)
 #https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1#
+from collections import defaultdict 
 def topView(root):#takes input as tree root 
     m=defaultdict(int)
     traverse(root, m, 0,0)
