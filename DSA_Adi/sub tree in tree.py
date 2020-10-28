@@ -1,7 +1,8 @@
 #https://practice.geeksforgeeks.org/problems/check-if-subtree/0/?track=DSASP-Tree&batchId=155#
+
 if T2 ==None :
         return True
-    if T1 ==None :
+    if T1 ==None:
         return False 
     a1,a2,aa1,aa2=[],[],[],[]
     inorder(T1,a1)
